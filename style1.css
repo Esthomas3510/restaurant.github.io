@@ -1,0 +1,396 @@
+.navbar-brand
+{
+    font-family: 'Merienda', cursive;
+}
+.navbar-nav
+{
+    font-family: sriracha;
+}
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width:500%;
+    
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+}
+}
+.About
+{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+    background-image: url(https://images.unsplash.com/photo-1583311957215-4278c39a3b1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    padding-top: 40px;
+    height: 700px;
+
+}
+.content{
+    
+    width: 50%;
+    height: 100px;
+    
+    margin: 100px auto;
+}
+.About p{
+    font-size: 25px;
+    color: black;
+}
+.container{
+    width: 100%;
+   
+  
+   
+    letter-spacing: 1px;
+}
+.container h1
+{
+    
+    color:black;
+  
+    font-size: 40px;
+    
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+    
+
+.row{
+    margin-top: 30px;
+
+}
+.img
+{
+    width: 100%;
+}
+.bottom .fa
+{
+    color: black;
+    font-size: 10px;
+    text-align:center;
+
+}
+.bottom h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+}
+.bottom h5{
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.top img{
+    width: 200px;
+    height: 270px;
+    margin-left: 70px;
+    padding-top: 40px;
+}
+.overlay{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.stories{
+    padding: 40px;
+    background:#B2CCDB;
+    color: black;
+    text-align: center;
+
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border
+{
+    width: 160px;
+    height: 5px;
+    background: black;
+    margin: 26px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testamonial
+{
+background: #fff;
+padding: 15px;
+}
+.testamonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.stories p{
+    font-size: 15px;
+}
+
+  
+  .login h1{
+      font-size: 30px;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .login
+  {
+      text-align: center;
+      margin: 0;
+      padding-top: 30px;
+      background-color: ;
+  }
+ 
+  
+  .form1{
+      text-align: center;
+      width: 300px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid gray;
+  color:white;
+      
+      font-size: 18px;
+      margin-bottom: 16px;
+  }
+  input{
+      height: 45px;
+  }
+  .submit{
+      text-align: center;
+      width: 300px;
+      background-color: #ff5722;
+      border-color: transparent;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 50px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border-radius:5px ;
+  }
+  
+  
+  footer{
+	
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
